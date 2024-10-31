@@ -1,3 +1,5 @@
+import animations from "tailwindcss-animated";
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -6,6 +8,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [animations],
 };
 
